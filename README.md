@@ -10,6 +10,7 @@ The folder contains 37 xml files recorded directly from Smoke Squadron's game se
 
 The folder contains several files, which we explain in detail:
 * **prov-G.json**: NX graph data.
+* **prov-G.data**: Same as prov-G.json but transformed to data object for pytorch-geometric.
 * **prov-atbset_list.json**: Lists the feature sets of each node type.
 * **provatbset_N-feats.npy** : Feature matrix for node type N, where each line corresponds to a local node index.
 * **provatbset_N-map.json** : Json dictionary mapping local node index of node type N to node index in prov-G.json.
