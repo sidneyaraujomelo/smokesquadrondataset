@@ -1,0 +1,14 @@
+[
+    {
+        "model": "graphsage",
+        "in_channels" : 0,
+        "hidden_channels" : [256, 256],
+        "out_channels": 256,
+        "dropout": 0.5
+    },
+    {
+        "model": "link_pred",
+        "in_channels": 512,
+        "composition_function": "concatenate"
+    }
+]
